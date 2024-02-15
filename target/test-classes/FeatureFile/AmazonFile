@@ -1,0 +1,11 @@
+Feature:
+
+To validate and verification of Amazon application
+Scenario:
+To validate Amazon application of login page
+Given To lunch the browser and hit the url
+When To enter the valid password of email field
+And To click the continue button
+And To enter the valid password of password filed
+And To click the signin button
+Then To close the browser 

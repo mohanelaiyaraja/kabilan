@@ -1,0 +1,444 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "To validate login with valid username and invalid password",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10155492100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To Launch the chrome browser and hit the url",
+            "match": {
+              "location": "StepDefinication.to_Launch_the_chrome_browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 206179400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the valid username in email field",
+            "match": {
+              "location": "StepDefinication.enter_the_valid_username_in_email_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "java123@gmail.com",
+                  "selenium546@gmail.com",
+                  "sql765@gmail.com",
+                  "cucumber098@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 189007900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter the invalid password in Password field",
+            "match": {
+              "location": "StepDefinication.enter_the_invalid_password_in_Password_field(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "java",
+                  "selenium",
+                  "sql"
+                ]
+              },
+              {
+                "cells": [
+                  "123",
+                  "456",
+                  "789"
+                ]
+              },
+              {
+                "cells": [
+                  "abc",
+                  "def",
+                  "ghi"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203698100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click the login button",
+            "match": {
+              "location": "StepDefinication.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162670100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "To close the Browser",
+            "match": {
+              "location": "StepDefinication.to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "",
+        "description": "To validate login with Invalid Username and Invalid password",
+        "id": ";;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3735781100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "To hit the chorome Browser and hit the url",
+            "match": {
+              "location": "ScenerioOutLine.to_hit_the_chorome_Browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 336890200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Enter the valid username \"emohan23@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"emohan23@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "ScenerioOutLine.enter_the_valid_username_in_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 399616900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter the Valid \"mohan123\" password in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mohan123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ScenerioOutLine.enter_the_Valid_password_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185992400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click the Login button",
+            "match": {
+              "location": "ScenerioOutLine.click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166550800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "To close the browser",
+            "match": {
+              "location": "ScenerioOutLine.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "",
+        "description": "To validate login with Invalid Username and Invalid password",
+        "id": ";;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3688212700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "To hit the chorome Browser and hit the url",
+            "match": {
+              "location": "ScenerioOutLine.to_hit_the_chorome_Browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 227001500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Enter the valid username \"kablilanm1234@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kablilanm1234@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "ScenerioOutLine.enter_the_valid_username_in_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 307561800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter the Valid \"kabilan123\" password in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kabilan123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ScenerioOutLine.enter_the_Valid_password_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276121300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click the Login button",
+            "match": {
+              "location": "ScenerioOutLine.click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175310100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "To close the browser",
+            "match": {
+              "location": "ScenerioOutLine.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "",
+        "description": "To validate login with Invalid Username and Invalid password",
+        "id": ";;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3912574600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "To hit the chorome Browser and hit the url",
+            "match": {
+              "location": "ScenerioOutLine.to_hit_the_chorome_Browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166960000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Enter the valid username \"rose1234@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rose1234@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "ScenerioOutLine.enter_the_valid_username_in_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165827200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter the Valid \"mnbdfg\" password in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mnbdfg\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ScenerioOutLine.enter_the_Valid_password_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142757900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click the Login button",
+            "match": {
+              "location": "ScenerioOutLine.click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 182750400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "To close the browser",
+            "match": {
+              "location": "ScenerioOutLine.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "",
+        "description": "To validate login with Invalid Username and Invalid password",
+        "id": ";;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3554373400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "To hit the chorome Browser and hit the url",
+            "match": {
+              "location": "ScenerioOutLine.to_hit_the_chorome_Browser_and_hit_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 228501900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Enter the valid username \"elaverasanra98765@gmail.com\" in email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"elaverasanra98765@gmail.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "ScenerioOutLine.enter_the_valid_username_in_email_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176442900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Enter the Valid \"jhgfds23456\" password in password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jhgfds23456\"",
+                  "offset": 16
+                }
+              ],
+              "location": "ScenerioOutLine.enter_the_Valid_password_in_password_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121441200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click the Login button",
+            "match": {
+              "location": "ScenerioOutLine.click_the_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211401400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "To close the browser",
+            "match": {
+              "location": "ScenerioOutLine.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To validate login funtionality of facebook application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "C:/Users/emoha/eclipse-workspace/CucumberNew/src/test/resources/FeatureFile/login.feature",
+    "tags": []
+  }
+]

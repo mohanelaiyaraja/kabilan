@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="29.286465">
+<testcase classname="" name="_2" time="10.922821">
+<system-out><![CDATA[Given To Launch the chrome browser and hit the url..........................passed
+When Enter the valid username in email field................................passed
+And Enter the invalid password in Password field............................passed
+And Click the login button..................................................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_3" time="4.825324">
+<system-out><![CDATA[Given To hit the chorome Browser and hit the url............................passed
+When Enter the valid username "emohan23@gmail.com" in email field...........passed
+And Enter the Valid "mohan123" password in password field...................passed
+And Click the Login button..................................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_4" time="4.674592">
+<system-out><![CDATA[Given To hit the chorome Browser and hit the url............................passed
+When Enter the valid username "kablilanm1234@gmail.com" in email field......passed
+And Enter the Valid "kabilan123" password in password field.................passed
+And Click the Login button..................................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_5" time="4.571223">
+<system-out><![CDATA[Given To hit the chorome Browser and hit the url............................passed
+When Enter the valid username "rose1234@gmail.com" in email field...........passed
+And Enter the Valid "mnbdfg" password in password field.....................passed
+And Click the Login button..................................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_6" time="4.292505">
+<system-out><![CDATA[Given To hit the chorome Browser and hit the url............................passed
+When Enter the valid username "elaverasanra98765@gmail.com" in email field..passed
+And Enter the Valid "jhgfds23456" password in password field................passed
+And Click the Login button..................................................passed
+Then To close the browser...................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
